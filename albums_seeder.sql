@@ -30,22 +30,7 @@ INSERT INTO albums (artist, record_name, release_date, sales, genre) VALUES
 ('Madonna', 'The immaculate Collection', 1990, 19.8, 'Pop, dance'),
 ('Pink Floyd', 'The Wall', 1979, 18.9, 'Progressive rock'),
 ('The Beatles', 'Sgt. Peppers Lonely Hearts Club Band', 1967, 18.3, 'Rock'),
-('Michale Jackson', 'Dangerous', 1991, 17.0, 'New jack swing, R&B and pop'),
+('Michael Jackson', 'Dangerous', 1991, 17.0, 'New jack swing, R&B and pop'),
 ('The Beatles', 'Abbey Road', 1969, 16.9, 'Rock');
 
-
-
-
-
-
-
-
-# All albums in your table.
-SELECT record_name FROM albums;
-
-# All albums released before 1980
-SELECT record_name FROM albums WHERE release_date< 1980;
-
-# All albums by Michael Jackson
-SELECT record_name FROM albums WHERE artist = 'Michale Jackson';
 
