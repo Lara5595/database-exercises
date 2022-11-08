@@ -15,5 +15,9 @@ SELECT  emp_no FROM salaries ORDER BY  salary DESC LIMIT 5 ;
 
 SELECT  emp_no FROM salaries ORDER BY  salary  DESC LIMIT 4 OFFSET 46;
 
+# underscore Wildcard
+
+SELECT * FROM employees WHERE last_name LIKE '__e%' ORDER BY last_name;
+
 # LIMIT and OFFSET can be used to create multiple pages of data. What is the relationship between OFFSET (number of results to skip), LIMIT (number of results per page), and the page number?
 
