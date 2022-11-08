@@ -14,3 +14,6 @@ SELECT  emp_no FROM salaries ORDER BY  salary DESC LIMIT 5 ;
 # Try to think of your results as batches, sets, or pages. The first five results are your first page. The five after that would be your second page, etc. Update the previous query to find the tenth page of results. The employee number results should be:
 
 SELECT  emp_no FROM salaries ORDER BY  salary  DESC LIMIT 4 OFFSET 46;
+
+# LIMIT and OFFSET can be used to create multiple pages of data. What is the relationship between OFFSET (number of results to skip), LIMIT (number of results per page), and the page number?
+
