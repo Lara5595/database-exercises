@@ -23,3 +23,4 @@ SELECT * FROM employees WHERE last_name LIKE 'E%' ORDER BY emp_no;
 
 SELECT * FROM employees WHERE last_name LIKE  '%e' AND  last_name LIKE '%e'
 
+
