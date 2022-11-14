@@ -20,6 +20,7 @@ SELECT departments.dept_name AS Department_Name, CONCAT(employees.first_name, ' 
     JOIN departments ON departments.dept_no = dept_manager.dept_no
     WHERE dept_manager.to_date = '9999-01-01' ORDER BY Department_Name;
 
+# You can put ' ' on the alias so you are able to space
 
 # Find the name of all departments currently managed by women.
 
