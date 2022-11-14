@@ -33,6 +33,5 @@ SELECT dept_name FROM departments WHERE dept_no IN
 
 SELECT first_name, last_name FROM employees WHERE emp_no IN
     (SELECT emp_no FROM salaries WHERE salary IN
-    (SELECT max(salary) FROM salaries)
-     AND to_date > CURDATE());
+    (SELECT max(salary) FROM salaries));
 
