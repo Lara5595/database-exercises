@@ -33,5 +33,4 @@ WHERE dept_manager.to_date = '9999-01-01' AND employees.gender = 'F' ORDER BY De
 
 # Find the current titles of employees currently working in the Customer Service department.
 
-SELECT DISTINCT title, COUNT(titles.title) FROM titles JOIN employees ON titles.emp_no = employees.emp_no;
-
+# added note
